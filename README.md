@@ -6,7 +6,7 @@ This is my implementation of a NER model based on that in the paper
 To run the provided python script, first download the glove vectors 50d from  [this web page](https://www.kaggle.com/rtatman/glove-global-vectors-for-word-representation?select=glove.6B.50d.txt).
 The script can now be executed with
 ```sh
-python3 ner.py --glove_file PATH_TO_YOUR_GLOVE_FILE
+python3 ner_main.py --glove_file PATH_TO_YOUR_GLOVE_FILE
 ```
 
 ### Requirements:
